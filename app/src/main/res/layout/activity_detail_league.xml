@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".main.DetailLeagueActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView_detail_league"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/portugeuese_premiera_liga"/>
+
+        <TextView
+            android:id="@+id/textView_ligaName_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="League Name"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/button_go_to_matchSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go TO Macth Schedule"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/textView_description_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="this is description"/>
+    </LinearLayout>
+</ScrollView>

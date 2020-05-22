@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp">
+
+
+        <ImageView
+            android:id="@+id/imageView_list_liga_main"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/spanish_la_liga"/>
+
+        <TextView
+            android:id="@+id/textView_ligaName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Liga Inggris"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"/>
+
+
+</LinearLayout>
